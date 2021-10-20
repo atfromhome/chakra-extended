@@ -17,7 +17,7 @@
         "**/stories/**",
         "**/tests/**"
       ],
-      "allowBranch": "master"
+      "allowBranch": "main"
     }
   }
 }
