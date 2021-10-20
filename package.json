@@ -25,7 +25,6 @@
     "clean-dist": "yarn lerna exec -- rimraf dist",
     "bootstrap": "lerna bootstrap --use-workspaces",
     "build:storybook": "build-storybook && sb extract",
-    "release": "changeset publish",
     "gen:theme-typings": "chakra-cli tokens packages/theme/src/theme.ts"
   },
   "resolutions": {
@@ -43,8 +42,6 @@
     "@babel/runtime": "^7.15.4",
     "@chakra-ui/babel-plugin": "^1.0.0",
     "@chakra-ui/cli": "^1.5.3",
-    "@changesets/changelog-github": "^0.4.1",
-    "@changesets/cli": "^2.17.0",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
     "@manypkg/cli": "^0.18.0",
